@@ -1,4 +1,3 @@
-
 int max(int a, int b) { return a > b ? a : b; }
 
 int knapRecurse(int wt[], int val[], int n, int c) {
