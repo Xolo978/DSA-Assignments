@@ -1,0 +1,18 @@
+void solve(state) {
+
+  if (goal reached) {
+    print solution;
+    return;
+  }
+
+  for (each choice) {
+
+    if (invalid) continue;
+
+    make choice;
+
+    solve(updated state);
+
+    undo choice;  // backtrack
+  }
+}
